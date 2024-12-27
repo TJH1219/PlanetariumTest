@@ -68,12 +68,11 @@ public class Register {
         TestRunner.registerPage.setPassword(password);
     }
 
-    @Then("the user should get a browser alert saying Failed to register")
-    public void the_user_should_get_a_browser_alert_saying_Failed_to_register() {
+    @Then("the user should get a browser alert saying {string}")
+    public void the_user_should_get_a_browser_alert_saying(String message) {
         // Write code here that turns the phrase above into concrete actions
         String alertText = TestRunner.registerPage.getAlertText();
-        boolean textCorrect = alertText.equals("Invalid username") || alertText.equals("Invalid password");
-        Assert.assertTrue(textCorrect);
+        Assert.assertEquals(message, alertText);
     }
 
     @Then("the user should stay on the register page")

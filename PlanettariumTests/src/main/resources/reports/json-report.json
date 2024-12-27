@@ -1,0 +1,2981 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-27T05:41:47.100Z",
+        "before": [
+          {
+            "result": {
+              "duration": 139002400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Planet Happy Path",
+        "description": "",
+        "id": "adding-new-planets-and-moons;planet-happy-path;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 219002400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155996700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user selects the planet option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_planet_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125001400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters a valid planet name \"Zanath\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zanath\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_valid_planet_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29001000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters a valid planet image \"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\planet-5.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\planet-5.jpg\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_valid_planet_image(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47998700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks the add planet button",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_clicks_the_add_planet_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 684890400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the planet table is updated planet \"Zanath\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zanath\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_planet_table_is_updated_planet(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:41:48.579Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11002800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Moon Happy Path",
+        "description": "",
+        "id": "adding-new-planets-and-moons;moon-happy-path;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 151998600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71998700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user selects the moon option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_moon_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56002200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters a valid moon name \"Pios\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pios\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_valid_moon_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75000400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters the owner planet id \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enter_the_owner_planet_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111999100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the moon has a valid owner planet \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_moon_has_a_valid_owner_planet(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20998500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user enters a valid moon image \"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\moon-4.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\moon-4.jpg\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_valid_moon_image(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50001600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user clicks the add moon button",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_clicks_the_add_moon_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 664768300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the planet table is updated moon \"Pios\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pios\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_planet_table_is_updated_moon(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:41:49.806Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10999400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Moon Happy Path",
+        "description": "",
+        "id": "adding-new-planets-and-moons;moon-happy-path;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 153003200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117999600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user selects the moon option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_moon_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 129997900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters a valid moon name \"Algeras\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Algeras\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_valid_moon_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33000500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters the owner planet id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enter_the_owner_planet_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112999600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the moon has a valid owner planet \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_moon_has_a_valid_owner_planet(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17999500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user enters a valid moon image \"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\moon-5.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\moon-5.jpg\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_valid_moon_image(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38003800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user clicks the add moon button",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_clicks_the_add_moon_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 659901300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the planet table is updated moon \"Algeras\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Algeras\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_planet_table_is_updated_moon(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:41:51.087Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9997200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Sad Planet Path",
+        "description": "",
+        "id": "adding-new-planets-and-moons;sad-planet-path;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 144899000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 80000500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user selects the planet option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_planet_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94001000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user enters an invalid name planet \"lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_an_invalid_name_planet(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18998200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user enters a planet image \"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\planet-4.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\planet-4.jpg\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_planet_image(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43000900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user clicks the add planet button",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_clicks_the_add_planet_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9001400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the browser gives the alert \"Invalid planet name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid planet name\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_browser_gives_the_alert(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:41:51.495Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10000800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Sad Planet Path",
+        "description": "",
+        "id": "adding-new-planets-and-moons;sad-planet-path;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 160997900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78999400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user selects the planet option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_planet_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68999600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user enters an invalid name planet \"::Broken planet Name[]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"::Broken planet Name[]\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_an_invalid_name_planet(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24999600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user enters a planet image \"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\planet-4.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\planet-4.jpg\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_planet_image(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39001500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user clicks the add planet button",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_clicks_the_add_planet_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7998700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the browser gives the alert \"Invalid planet name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid planet name\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_browser_gives_the_alert(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:41:51.894Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11000700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Sad Planet Path",
+        "description": "",
+        "id": "adding-new-planets-and-moons;sad-planet-path;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 158999100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81999400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user selects the planet option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_planet_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71002400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user enters an invalid name planet \"Earth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Earth\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_an_invalid_name_planet(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19998000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user enters a planet image \"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\planet-5.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\planet-5.jpg\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_planet_image(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40001300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user clicks the add planet button",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_clicks_the_add_planet_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 522934400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the browser gives the alert \"Invalid planet name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid planet name\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_browser_gives_the_alert(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:41:52.808Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9001600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Sad Moon Path",
+        "description": "",
+        "id": "adding-new-planets-and-moons;sad-moon-path;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 156000200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54000100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user selects the moon option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_moon_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113001200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the user enters a valid moon name \"lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_valid_moon_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34997500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the user enters the owner planet id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enter_the_owner_planet_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17999600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "the user enters a valid moon image \"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\moon-4.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\moon-4.jpg\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_valid_moon_image(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37000700,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "the user clicks the add moon button",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_clicks_the_add_moon_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8002100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "the browser gives the alert \"Invalid moon name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid moon name\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_browser_gives_the_alert(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:41:53.244Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11999600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Sad Moon Path",
+        "description": "",
+        "id": "adding-new-planets-and-moons;sad-moon-path;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 165999200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111998900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user selects the moon option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_moon_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 144000700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the user enters a valid moon name \"::bad name;;\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"::bad name;;\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_valid_moon_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35001700,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the user enters the owner planet id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enter_the_owner_planet_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16998800,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "the user enters a valid moon image \"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\moon-5.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\moon-5.jpg\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_valid_moon_image(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39999600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "the user clicks the add moon button",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_clicks_the_add_moon_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7001400,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "the browser gives the alert \"Invalid moon name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid moon name\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_browser_gives_the_alert(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:41:53.785Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12002100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Sad Moon Path",
+        "description": "",
+        "id": "adding-new-planets-and-moons;sad-moon-path;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 160998500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55997300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user selects the moon option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_moon_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52000200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the user enters a valid moon name \"ValidMoon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ValidMoon\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_valid_moon_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83998400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the user enters the owner planet id \"500\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"500\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enter_the_owner_planet_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20000100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "the user enters a valid moon image \"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\moon-4.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C:\\Users\\thadd\\Documents\\GitHub\\PlanetariumTest\\PlanettariumTests\\src\\main\\resources\\Celestial-Images\\moon-4.jpg\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_enters_a_valid_moon_image(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36999900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "the user clicks the add moon button",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_clicks_the_add_moon_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7001500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "the browser gives the alert \"Invalid planet id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid planet id\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_browser_gives_the_alert(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adding new planets and moons",
+    "description": "",
+    "id": "adding-new-planets-and-moons",
+    "keyword": "Feature",
+    "uri": "classpath:features/AddPlanetsAndMoons.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-27T05:41:54.220Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10999000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Planet Happy Path",
+        "description": "",
+        "id": "deleting-planets-and-moons;planet-happy-path;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 171999200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86999600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user selects the planet option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_planet_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70999500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters valid planet name \"Earth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Earth\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_enters_valid_planet_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50001900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks the delete planet button",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_clicks_the_delete_planet_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5045163300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the planet table is refreshed \"Earth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Earth\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_planet_table_is_refreshed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.fail(Assert.java:96)\r\n\tat com.revature.Steps.DeletePlanetsAndMoons.the_moons_owned_by_the_planet_are_deleted(DeletePlanetsAndMoons.java:45)\r\n\tat ✽.the moons owned by the planet are deleted \"1\"(classpath:features/DeletePlanetsAndMoons.feature:8)\r\n",
+              "duration": 9001200,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "the moons owned by the planet are deleted \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_moons_owned_by_the_planet_are_deleted(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:41:59.684Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8999100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Moon happy path",
+        "description": "",
+        "id": "deleting-planets-and-moons;moon-happy-path;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 167000500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70999000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user selects the moon option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_moon_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49998400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters valid moon name \"Luna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Luna\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_enters_valid_moon_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69000300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user clicks the delete moon button",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_clicks_the_delete_moon_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5059028400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the planet table is refreshed \"Luna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Luna\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_planet_table_is_refreshed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:42:05.114Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11000500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Moon happy path",
+        "description": "",
+        "id": "deleting-planets-and-moons;moon-happy-path;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 154997600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120059900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user selects the moon option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_moon_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 129000700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters valid moon name \"Titan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Titan\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_enters_valid_moon_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41000400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user clicks the delete moon button",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_clicks_the_delete_moon_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5049646300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the planet table is refreshed \"Titan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Titan\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_planet_table_is_refreshed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:42:10.623Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7999800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Planet sad path",
+        "description": "",
+        "id": "deleting-planets-and-moons;planet-sad-path;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 166142600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149999100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user selects the planet option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_planet_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118997100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user enters planet name \"lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_enters_planet_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40000900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user clicks the delete planet button",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_clicks_the_delete_planet_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8001100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "browser gives invalid planet error",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.browser_gives_invalid_planet_error()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:42:11.122Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10002300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Planet sad path",
+        "description": "",
+        "id": "deleting-planets-and-moons;planet-sad-path;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 173997500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 122998900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user selects the planet option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_planet_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90999500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user enters planet name \"::Broken planet NAme[]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"::Broken planet NAme[]\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_enters_planet_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44002800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user clicks the delete planet button",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_clicks_the_delete_planet_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8999600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "browser gives invalid planet error",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.browser_gives_invalid_planet_error()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:42:11.577Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10000300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Planet sad path",
+        "description": "",
+        "id": "deleting-planets-and-moons;planet-sad-path;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 165998200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86999500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user selects the planet option",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_selects_the_planet_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64999800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user enters planet name \"earth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"earth\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_enters_planet_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43999700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user clicks the delete planet button",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_clicks_the_delete_planet_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8999700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "browser gives invalid planet error",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.browser_gives_invalid_planet_error()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:42:11.964Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11000200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Moon Sad Path",
+        "description": "",
+        "id": "deleting-planets-and-moons;moon-sad-path;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 167999400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 122000800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the user enters the moon name \"lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_enters_the_moon_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the user clicks the delete moon button",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_clicks_the_delete_moon_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7998800,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "browser gives invalid Moon error",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.browser_gives_invalid_Moon_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:42:12.347Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10002500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Moon Sad Path",
+        "description": "",
+        "id": "deleting-planets-and-moons;moon-sad-path;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 166001000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120997700,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the user enters the moon name \"::bad name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"::bad name\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_enters_the_moon_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72000700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the user clicks the delete moon button",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.the_user_clicks_the_delete_moon_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6001100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "browser gives invalid Moon error",
+            "match": {
+              "location": "com.revature.Steps.DeletePlanetsAndMoons.browser_gives_invalid_Moon_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Deleting planets and moons",
+    "description": "",
+    "id": "deleting-planets-and-moons",
+    "keyword": "Feature",
+    "uri": "classpath:features/DeletePlanetsAndMoons.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-27T05:42:12.735Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Checking if the planet table is displaying correct data happy path",
+        "description": "",
+        "id": "homepage-functionality;checking-if-the-planet-table-is-displaying-correct-data-happy-path",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 178001100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.revature.Steps.AddPlanetsAndMoon.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.fail(Assert.java:96)\r\n\tat com.revature.Steps.HomePage.the_celestial_objects_table_has_valid_data(HomePage.java:35)\r\n\tat ✽.the celestial objects table has valid data(classpath:features/HomePage.feature:4)\r\n",
+              "duration": 98999600,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "the celestial objects table has valid data",
+            "match": {
+              "location": "com.revature.Steps.HomePage.the_celestial_objects_table_has_valid_data()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Homepage Functionality",
+    "description": "",
+    "id": "homepage-functionality",
+    "keyword": "Feature",
+    "uri": "classpath:features/HomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-27T05:42:13.026Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9998800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Happy Path",
+        "description": "",
+        "id": "login-functionality;happy-path;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 53999100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39999500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user provides a valid login username \"Batman\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batman\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.revature.Steps.Login.the_user_provides_a_valid_login_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61001200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user provides a valid login password \"Iamthenight1939\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Iamthenight1939\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.revature.Steps.Login.the_user_provides_a_valid_login_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41001100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user hits the login button",
+            "match": {
+              "location": "com.revature.Steps.Login.the_user_hits_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85998600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is redirected to the home page \"Batman\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batman\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.revature.Steps.Login.the_user_is_redirected_to_the_home_page(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:42:13.322Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7998300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Sad Path",
+        "description": "",
+        "id": "login-functionality;sad-path;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21001300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44998200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user provides a invalid login username \"Manbat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manbat\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.Steps.Login.the_user_provides_a_invalid_login_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46000300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user provides a invalid login password \"Iamnotthenight\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Iamnotthenight\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.Steps.Login.the_user_provides_a_invalid_login_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43999700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user hits the login button",
+            "match": {
+              "location": "com.revature.Steps.Login.the_user_hits_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7001000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user stays on the login page",
+            "match": {
+              "location": "com.revature.Steps.Login.the_user_stays_on_the_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:42:13.497Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10001900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Sad Path",
+        "description": "",
+        "id": "login-functionality;sad-path;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11002600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46996600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user provides a invalid login username \"NotUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NotUser\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.Steps.Login.the_user_provides_a_invalid_login_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47003000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user provides a invalid login password \"Iamthenight1939\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Iamthenight1939\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.Steps.Login.the_user_provides_a_invalid_login_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39996400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user hits the login button",
+            "match": {
+              "location": "com.revature.Steps.Login.the_user_hits_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5997000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user stays on the login page",
+            "match": {
+              "location": "com.revature.Steps.Login.the_user_stays_on_the_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "classpath:features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-27T05:42:13.662Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9335100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Happy path",
+        "description": "",
+        "id": "register-functionality;happy-path;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9999100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86001800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user clicks the register link",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_clicks_the_register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56999000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user provides a valid register username \"MasterChief\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MasterChief\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_provides_a_valid_register_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46001200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user provides a valid register password \"Pi11arOfAutum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pi11arOfAutum\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_provides_a_valid_register_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39997200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user submits the credentials",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_submits_the_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 509895700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should get a browser alert saying Register successful",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_should_get_a_browser_alert_saying_Register_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16998900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user should be redirected to the login page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_should_be_redirected_to_the_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:42:14.443Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10002500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Sad Path Invalid username",
+        "description": "",
+        "id": "register-functionality;sad-path-invalid-username;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10999200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63999800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user clicks the register link",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_clicks_the_register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84001000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user provides a invalid register username \"Batman\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batman\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_provides_a_invalid_register_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36998500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user provides a invalid register password \"?NOM\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"?NOM\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_provides_a_invalid_register_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43000500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user submits the credentials",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_submits_the_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5001100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user should get a browser alert saying \"Invalid password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid password\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3999600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user should stay on the register page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_should_stay_on_the_register_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:42:14.706Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11997700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Sad Path Invalid username",
+        "description": "",
+        "id": "register-functionality;sad-path-invalid-username;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27999300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user clicks the register link",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_clicks_the_register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39000600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user provides a invalid register username \"Batman\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batman\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_provides_a_invalid_register_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48999800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user provides a invalid register password \"Pi11arOfAutum!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pi11arOfAutum!\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_provides_a_invalid_register_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42999900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user submits the credentials",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_submits_the_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cInvalid [username]\u003e but was:\u003cInvalid [password]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.revature.Steps.Register.the_user_should_get_a_browser_alert_saying(Register.java:75)\r\n\tat ✽.the user should get a browser alert saying \"Invalid username\"(classpath:features/Register.feature:22)\r\n",
+              "duration": 3998200,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "the user should get a browser alert saying \"Invalid username\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "the user should stay on the register page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_should_stay_on_the_register_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:42:14.985Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11001400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Sad Path Invalid username",
+        "description": "",
+        "id": "register-functionality;sad-path-invalid-username;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 60997500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61001800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user clicks the register link",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_clicks_the_register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123998300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user provides a invalid register username \"Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_provides_a_invalid_register_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50279300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user provides a invalid register password \"Pi11arOfAutum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pi11arOfAutum\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_provides_a_invalid_register_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40000100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user submits the credentials",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_submits_the_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user should get a browser alert saying \"Invalid username\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2998800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user should stay on the register page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_should_stay_on_the_register_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:42:15.346Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Sad Path Invalid username",
+        "description": "",
+        "id": "register-functionality;sad-path-invalid-username;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35999800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61001100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user clicks the register link",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_clicks_the_register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66001400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user provides a invalid register username \"MasterChief\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MasterChief\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_provides_a_invalid_register_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34997000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user provides a invalid register password \"3at\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3at\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_provides_a_invalid_register_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44000700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user submits the credentials",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_submits_the_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6003100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user should get a browser alert saying \"Invalid password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid password\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4997900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user should stay on the register page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_should_stay_on_the_register_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-27T05:42:15.613Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11002400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.revature.Steps.hooks.Hooks.resetDataBase()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Sad Path Invalid username",
+        "description": "",
+        "id": "register-functionality;sad-path-invalid-username;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25997800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69000400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user clicks the register link",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_clicks_the_register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70998500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user provides a invalid register username \";Manspider:\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\";Manspider:\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_provides_a_invalid_register_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43002800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user provides a invalid register password \"2Catmanjohn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2Catmanjohn\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_provides_a_invalid_register_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42000600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user submits the credentials",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_submits_the_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3997700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user should get a browser alert saying \"Invalid username\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.Steps.Register.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4006400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user should stay on the register page",
+            "match": {
+              "location": "com.revature.Steps.Register.the_user_should_stay_on_the_register_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Register Functionality",
+    "description": "",
+    "id": "register-functionality",
+    "keyword": "Feature",
+    "uri": "classpath:features/Register.feature",
+    "tags": []
+  }
+]

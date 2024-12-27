@@ -15,9 +15,12 @@ import java.time.Duration;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "classpath:features/HomePage.feature",
+        features = "classpath:features",
         glue = "com.revature.Steps",
-        plugin = {"pretty"}
+        plugin = {"pretty",
+                "html:src/main/resources/reports/html-report.html",
+                "json:src/main/resources/reports/json-report.json"
+        }
 
 )
 public class TestRunner {

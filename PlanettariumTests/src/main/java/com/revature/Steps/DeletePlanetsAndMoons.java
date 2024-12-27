@@ -37,14 +37,12 @@ public class DeletePlanetsAndMoons {
 
     @Given("the moons owned by the planet are deleted {string}")
     public void the_moons_owned_by_the_planet_are_deleted(String id) {
-        // Write code here that turns the phrase above into concrete actions
-        List<WebElement> tableRows = TestRunner.homePage.getTableRows();
-        int rowCount = tableRows.size();
-        for(int i = 1; i < rowCount; i++){
-            List<WebElement> column = tableRows.get(i).findElements(By.tagName("td"));
-            if(column.get(0).getText().equals("moon") && column.get(3).getText().equals(id)){
-                Assert.fail();
-            }
+        // Write code here that turns the phrase above into concrete action
+        List<WebElement> deletedRow = TestRunner.driver.findElements(By.xpath(String.format("//table[@id='celestialTable']//tr[td[text()='%s']]", id)));
+        if(deletedRow.isEmpty()){
+            Assert.assertTrue(true);
+        }else {
+            Assert.fail();
         }
     }
 
@@ -58,15 +56,12 @@ public class DeletePlanetsAndMoons {
     @Then("the planet table is refreshed {string}")
     public void the_planet_table_is_refreshed(String name) {
         // Write code here that turns the phrase above into concrete actions
-        List<WebElement> tableRows = TestRunner.homePage.getTableRows();
-        int rowCount = tableRows.size();
-        for(int i = 1; i < rowCount; i++){
-            List<WebElement> column = tableRows.get(i).findElements(By.tagName("td"));
-            if(column.get(2).getText().equals(name)){
-                Assert.fail();
-            }
+        List<WebElement> deletedRow = TestRunner.driver.findElements(By.xpath(String.format("//table[@id='celestialTable']//tr[td[text()='%s']]", name)));
+        if(deletedRow.isEmpty()){
+            Assert.assertTrue(true);
+        }else {
+            Assert.fail();
         }
-        Assert.assertTrue(true);
     }
 
     @Given("the user enters planet name {string}")

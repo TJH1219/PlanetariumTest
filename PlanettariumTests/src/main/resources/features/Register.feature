@@ -19,11 +19,12 @@ Feature: Register Functionality
     When the user provides a invalid register username "<userName>"
     And the user provides a invalid register password "<passWord>"
     And the user submits the credentials
-    Then the user should get a browser alert saying Failed to register
+    Then the user should get a browser alert saying "<message>"
     And the user should stay on the register page
     Examples:
-      |userName|passWord|
-      |Batman  |?NOM    |
-      |Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch|password|
-      |1eet    |3at     |
-      |;Manspider:|2catman:john|
+      |userName|passWord|message|
+      |Batman  |?NOM    | Invalid password      |
+      |Batman  |Pi11arOfAutum!|Invalid username |
+      |Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch|Pi11arOfAutum|Invalid username|
+      |MasterChief    |3at     |Invalid password                                                  |
+      |;Manspider:|2Catmanjohn|Invalid username                                           |

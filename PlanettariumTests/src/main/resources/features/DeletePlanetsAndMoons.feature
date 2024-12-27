@@ -4,8 +4,8 @@ Feature: Deleting planets and moons
     And the user selects the planet option
     And the user enters valid planet name "<planetName>"
     And the user clicks the delete planet button
-    And the moons owned by the planet are deleted "<id>"
     And the planet table is refreshed "<planetName>"
+    And the moons owned by the planet are deleted "<id>"
 
     Examples:
     |planetName|id|
